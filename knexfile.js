@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config(); // has to be here for the .env file
 const {
   NODE_ENV = "development",
   DEVELOPMENT_DATABASE_URL,
